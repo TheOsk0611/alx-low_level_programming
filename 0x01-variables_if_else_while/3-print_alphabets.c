@@ -19,7 +19,6 @@ a++;
 a = 'A';
 
 while (a <= 'Z')
-  
 {
 putchar(a);
 a++;
