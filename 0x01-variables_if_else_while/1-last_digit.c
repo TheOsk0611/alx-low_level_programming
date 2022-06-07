@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
+ *main -prints last digit of number and wheter it is
  *greater than 5 or less than 6
  *Return: 0
  */
@@ -10,7 +11,6 @@ int main(void)
 {
 int n;
 int lastdigit;
-
 srand(time(0)); 
 n = rand() - RAND_MAX / 2;
 lastdigit = n % 10;
