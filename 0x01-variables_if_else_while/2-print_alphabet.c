@@ -12,7 +12,7 @@ char a = 'a';
 while ( a<='z')
    {
      putchar(a);
-     a++
+     a++;
    }
  purchar('\n');
 
