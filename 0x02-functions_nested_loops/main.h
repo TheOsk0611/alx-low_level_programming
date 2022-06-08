@@ -1,11 +1,5 @@
-/**
- *File:main.h
- *
- *Return: Always 0.
- *
- */
-int main(void)
-{
-print_alphabet();
-return (0);
-}
+#ifndef MAIN_H
+#DEFINE MAIN_H
+
+void print_alphabet(void);
+
