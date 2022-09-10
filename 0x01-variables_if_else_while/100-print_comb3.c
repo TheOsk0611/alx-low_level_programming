@@ -15,7 +15,7 @@ j = 48;
 while (j < 58)
 {
 i = 48;
-while (i = 58)
+while (i < 58)
 {
 if (j != i && j < i)
 {
