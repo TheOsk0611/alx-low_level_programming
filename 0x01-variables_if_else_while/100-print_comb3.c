@@ -7,21 +7,21 @@
  */
 
 int main(void)
-{ int a, b;
+{ int i, j;
 
-a = 48;
-b = 48;
+i = 48;
+j = 48;
 
-while (b < 48)
+while (j < 58)
 {
-a = 48;
-while (a = 48)
+i = 48;
+while (i = 58)
 {
-if (b != a && b < a)
+if (j != i && j < i)
 {
-putchar(b);
-putchar(a);
-if (a == 57 && b == 56)
+putchar(j);
+putchar(i);
+if (i == 57 && j == 56)
 {
 break;
 }
@@ -29,9 +29,9 @@ putchar(',');
 putchar(' ');
 
 }
-a++;
+i++;
 }
-b++;
+j++;
 }
 putchar('\n');
 return (0);
