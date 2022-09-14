@@ -1,20 +1,21 @@
 #include "main.h"
-
 /**
- *main -prints string "_putchar" from character array
+ *main -Print "_putchar" from character array
  *Return: 0
  */
-
 int main(void)
 {
-char c[] = "_putchar";
-int i;
+char putchar[] = "_putchar";
+int i = 0;
 
-for (i = 0; i< 9; i++)
+
+while (putchar[i] != '\0')
 {
-_putchar(c[i]);
-
+_putchar(putchar[i]);
+i++;
 }
+
 _putchar('\n');
+
 return (0);
 }
