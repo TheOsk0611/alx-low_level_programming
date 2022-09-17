@@ -1,20 +1,19 @@
-#include "main.h"
+#include "main.h
 
 /**
- *
- *print_alphabet -a function printsthe alphabet in lovercase
- *
- *Return: Always 0 (Success)
- */
+*print_alphabet- in lower case with _'putchar'
+*
+*Return: 0
+*/
 
 void print_alphabet(void)
 {
-int n;
+char i = 'a';
 
-for (n = 'a'; n <= 'z'; n++)
+while (i <= 'z')
 {
-_putchar(n);
+_putchar(i);
+i++;
 }
 _putchar('\n');
-
 }
