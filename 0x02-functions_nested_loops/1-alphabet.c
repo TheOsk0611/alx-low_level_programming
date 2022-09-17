@@ -1,4 +1,4 @@
-#include "main.h
+#include "main.h"
 
 /**
 *print_alphabet- in lower case with _'putchar'
