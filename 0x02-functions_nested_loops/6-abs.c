@@ -4,7 +4,15 @@
 *@ab: int input
 *Return: absolute value of ab
 */
-int _abs(int ab)
+int _abs(int n)
 {
-return (ab * ((ab > 0) - (ab < 0)));
+if
+(n < 0)
+{
+return (n * -1);
+}
+else
+{
+return (n);
+}
 }
