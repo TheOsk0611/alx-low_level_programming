@@ -1,12 +1,11 @@
 #include "main.h"
-
 /**
 * _strspn - lenght of prefix
-* @s:char pointer
+* @s: char pointer
 * @accept: char pointer
 * Return: s
 */
-unsigned int _strspn(char *s, char accept)
+unsigned int _strspn(char *s, char *accept)
 {
 unsigned int count1, count2;
 for (count1 = 0; s[count1] != '\0'; count1++)
