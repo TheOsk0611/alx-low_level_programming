@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*print_diagsums -sum diagonal values
+*print_diagsums- sum diagonal values
 *@a: pointer to array
 *@size: int
 *Return: sum of sides
