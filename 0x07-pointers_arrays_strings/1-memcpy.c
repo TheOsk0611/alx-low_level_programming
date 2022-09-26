@@ -15,7 +15,7 @@ unsigned int index;
 for (index = 0; n > 0; index++)
 {
 dest[index] = src[index];
-n -=1;
+n -= 1;
 }
 return (dest);
 }
