@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-*print_diagsums- sum diagonal values
-*@a: pointer to array
-*@size: int
-*Return: sum of sides
+* print_diagsums- sum diagonal values
+* @a: pointer to array
+* @size: int
+* Return: sum of sides
 */
 
 void print_diagsums(int *a, int size)
