@@ -7,7 +7,7 @@
 *@argv: the arguments value
 *Return: 1 exactly amount 0 otherwise
 */
-int main(int argc, char **argv)
+int main(int argc, char **argv[])
 {
 int amount, coins = 0;
 if (argc == 2)
