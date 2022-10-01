@@ -1,17 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-
 /**
 *main - prints the minimun number of coins to make change money
 *@argc: the arguments counter
 *@argv: the arguments value
 *Return: 1 exactly amount 0 otherwise
 */
-
 int main(int argc, char **argv)
 {
-int amount = atoi(argv[1]);
+int amount, coins = 0;
+if (argc == 2)
+{
+amount = atoi(argv[1]);
 if (amount < 0)
 {
 printf("%d\n", 0);
@@ -27,8 +28,6 @@ if (amount % 10 >= 0)
 coins += amount / 10;
 amount = amount % 10;
 }
-
-
 if (amount % 5 >= 0)
 {
 coins += amount / 5;
