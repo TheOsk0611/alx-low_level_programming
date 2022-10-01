@@ -7,46 +7,42 @@
 *@argv: the arguments value
 *Return: 1 exactly amount 0 otherwise
 */
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 {
-int amount, coins = 0;
-if (argc == 2)
-{
-amount = atoi(argv[1]);
-if (amount < 0)
-{
-printf("%d\n", 0);
-return (0);
-}
-if (amount % 25 >= 0)
-{
-coins += amount / 25;
-amount = amount % 25;
-}
-if (amount % 10 >= 0)
-{
-coins += amount / 10;
-amount = amount % 10;
-}
-if (amount % 5 >= 0)
-{
-coins += amount / 5;
-amount = amount % 5;
-}
-if (amount % 2 >= 0)
-{
-coins += amount / 2;
-amount = amount % 2;
-}
-if (amount % 1 >= 0)
-{
-coins += amount;
-printf("%d\n", coins);
-return (0);
-}
-else
+int coins = 0, sum = 0;
+if (argc != 2)
 {
 printf("Error\n");
 return (1);
 }
+sum = atoi(argv[1]);
+if (sum < 0)
+{
+printf("0\n");
+return (0);
 }
+while (sum / 25)
+{
+sum -= 25;
+coins++;
+}
+while (sum / 10)
+{
+sum -= 10;
+coins++;
+}
+while (sum / 5)
+{
+sum -= 5;
+coins++;
+}
+while (sum / 2)
+{
+sum -= 2;
+coins++;
+}
+coins += sum;
+printf("%d\n", coins);
+return (0);
+}
+
