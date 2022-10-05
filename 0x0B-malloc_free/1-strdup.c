@@ -6,7 +6,6 @@
 *@str: unsigned int
 *Return: char pointer
 */
-
 char *_strdup(char *str)
 {
 unsigned int counter1, counter2;
