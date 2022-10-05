@@ -37,7 +37,6 @@ return (NULL);
 {
 doublePtr[col][row] = 0;
 }
-}
 return (doublePtr);
 }
 
