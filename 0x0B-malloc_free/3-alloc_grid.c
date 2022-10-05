@@ -33,7 +33,7 @@ free(doublePtr[row]);
 free(doublePtr);
 return (NULL);
 }
- for (row = 0; row < width; row++)
+for (row = 0; row < width; row++)
 {
 doublePtr[col][row] = 0;
 }
