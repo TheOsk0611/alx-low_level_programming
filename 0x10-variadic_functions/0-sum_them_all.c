@@ -1,5 +1,4 @@
 #include "variadic_functions.h"
-#include <stdarg.h>
 /**
 *sum_them_all - Return sum of all parameters
 *@n: the number of parameters passed to the function
