@@ -2,8 +2,9 @@
 #include <stdio.h>
 /**
 *print_list - prints linked list
+*main - check the code
 *@h: points to struct
-*Return:Int
+*Return: Always 0
 */
 size_t print_list(const list_t *h)
 {
