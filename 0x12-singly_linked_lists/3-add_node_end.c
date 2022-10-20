@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-*_strlen -adds node
+*_strlen - adds node
 *@str: pointer to pointer
 *Return: lenght
 */
