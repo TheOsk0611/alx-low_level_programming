@@ -2,26 +2,29 @@
 /**
 *free_listint_safe - prints a list
 *@h: address of pointer
-*Return: address of head
+*Return: size_t
 */
 size_t free_listint_safe(listint_t **h)
 {
-size_t c = 0;
-listint_t *head, *temp;
-long diff;
-if (!h)
+size_t count = 0;
+int count2; 
+listint_t *head, *new_node;
+if (*h == NULL)
+{
 return (0);
+}
 head = *h;
-*h = NULL;
 while (head)
 {
-c++;
-diff = head->next - head;
-temp = head;
-free(temp);
-if (diff >= 0)
+count++;
+count2 = head->next - head;
+new_node = head;
+free(new_node);
+if (count2 >= 0)
+{
 break;
+}
 head = head->next;
 }
-return (c);
+return (count);
 }
