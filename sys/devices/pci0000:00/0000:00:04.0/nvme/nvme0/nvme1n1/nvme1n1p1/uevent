@@ -1,0 +1,5 @@
+MAJOR=259
+MINOR=2
+DEVNAME=nvme1n1p1
+DEVTYPE=partition
+PARTN=1

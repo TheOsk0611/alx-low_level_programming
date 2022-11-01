@@ -1,0 +1,3 @@
+state = active
+io 0x378-0x37f
+irq 7
